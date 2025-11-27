@@ -7,4 +7,4 @@ def create_codon_dict(file_path):
         x = r.strip().split("\t")
         final[x[0]] = x[2]
 
-    return create_codon_dict
+    return final
